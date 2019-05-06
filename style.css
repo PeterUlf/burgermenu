@@ -1,0 +1,16 @@
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 1s;
+    transform-origin: top left;
+}
